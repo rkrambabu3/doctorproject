@@ -1,5 +1,5 @@
 <html>
 <body>
-<h2 style="color: red">Java Home App - Hello Jenkins this is version 2</h2>
+<h2 style="color: red">Java Home App - There is one more change!</h2>
 </body>
 </html>
