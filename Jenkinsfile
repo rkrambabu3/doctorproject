@@ -23,7 +23,7 @@ pipeline{
                     } else {
                         // Tomcat is not running, start it
                         echo 'Tomcat is not running. Starting Tomcat...'
-                        sh "ssh ec2-user@52.71.254.233 /opt/tomcat9/bin/startup.sh"
+                        sh "ssh -o StrictHostKeyChecking=no ec2-user@52.71.254.233 /opt/tomcat9/bin/startup.sh"
                         // Add your code to start Tomcat here
                     }
                 }
