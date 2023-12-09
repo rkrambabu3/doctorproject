@@ -1,5 +1,5 @@
 <html>
 <body>
-<h2 style="color: red">Changes in the pipeline project</h2>
+<h2 style="color: red">Hello Jenkins</h2>
 </body>
 </html>
